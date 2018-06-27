@@ -99,6 +99,7 @@
 
 - (void)stopRecord {
     [self.videoAssetWriterInput markAsFinished];
+    [self.audioAssetWriterInput markAsFinished];
     [self.asseetWriter finishWritingWithCompletionHandler:^{
         
     }];
