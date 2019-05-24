@@ -1,2 +1,2 @@
 # ESCRecordMP4Demo
-AVAssetWriter record mp4 file
+AVAssetWriter record iphone camera data to mp4 file
